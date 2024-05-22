@@ -1,0 +1,70 @@
+{
+    "Dataset": "country_metadata",
+    "Shape": [
+        213,
+        29
+    ],
+    "Columns": [
+        "Code",
+        "Long Name",
+        "Income Group",
+        "Region",
+        "Lending category",
+        "Other groups",
+        "Currency Unit",
+        "Latest population census",
+        "Latest household survey",
+        "Special Notes",
+        "National accounts base year",
+        "National accounts reference year",
+        "System of National Accounts",
+        "SNA price valuation",
+        "PPP survey years",
+        "Balance of Payments Manual in use",
+        "External debt Reporting status",
+        "System of trade",
+        "Government Accounting concept",
+        "IMF data dissemination standard",
+        "Source of most recent Income and expenditure data",
+        "Vital registration complete",
+        "Latest agricultural census",
+        "Latest industrial data",
+        "Latest trade data",
+        "2-alpha code",
+        "WB-2 code",
+        "Table Name",
+        "Short Name"
+    ],
+    "Describe": {
+        "National accounts reference year": {
+            "count": 74.0,
+            "mean": 2013.3108108108108,
+            "std": 4.141092687763538,
+            "min": 2000.0,
+            "25%": 2012.0,
+            "50%": 2015.0,
+            "75%": 2015.0,
+            "max": 2021.0
+        },
+        "Latest industrial data": {
+            "count": 148.0,
+            "mean": 2007.081081081081,
+            "std": 9.401485997403153,
+            "min": 1973.0,
+            "25%": 2002.75,
+            "50%": 2012.0,
+            "75%": 2013.0,
+            "max": 2014.0
+        },
+        "Latest trade data": {
+            "count": 193.0,
+            "mean": 2016.259067357513,
+            "std": 4.2616547500919175,
+            "min": 1995.0,
+            "25%": 2017.0,
+            "50%": 2018.0,
+            "75%": 2018.0,
+            "max": 2018.0
+        }
+    }
+}

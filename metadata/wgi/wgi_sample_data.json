@@ -1,0 +1,116 @@
+{
+    "Dataset": "wgi_sample_data",
+    "Shape": [
+        7709,
+        15
+    ],
+    "Columns": [
+        "Country Name",
+        "Country Code",
+        "Series Name",
+        "Series Code",
+        "2022 [YR2022]",
+        "2021 [YR2021]",
+        "2020 [YR2020]",
+        "2019 [YR2019]",
+        "2018 [YR2018]",
+        "2017 [YR2017]",
+        "2016 [YR2016]",
+        "2015 [YR2015]",
+        "2014 [YR2014]",
+        "2013 [YR2013]",
+        "2012 [YR2012]"
+    ],
+    "Describe": {
+        "Country Name": {
+            "count": 7706,
+            "unique": 216,
+            "top": "Afghanistan",
+            "freq": 36
+        },
+        "Country Code": {
+            "count": 7704,
+            "unique": 214,
+            "top": "AFG",
+            "freq": 36
+        },
+        "Series Name": {
+            "count": 7704,
+            "unique": 36,
+            "top": "Control of Corruption: Estimate",
+            "freq": 214
+        },
+        "Series Code": {
+            "count": 7704,
+            "unique": 36,
+            "top": "CC.EST",
+            "freq": 214
+        },
+        "2022 [YR2022]": {
+            "count": 7704,
+            "unique": 2162,
+            "top": "7",
+            "freq": 183
+        },
+        "2021 [YR2021]": {
+            "count": 7704,
+            "unique": 2348,
+            "top": "7",
+            "freq": 178
+        },
+        "2020 [YR2020]": {
+            "count": 7704,
+            "unique": 2393,
+            "top": "7",
+            "freq": 166
+        },
+        "2019 [YR2019]": {
+            "count": 7704,
+            "unique": 2450,
+            "top": "8",
+            "freq": 169
+        },
+        "2018 [YR2018]": {
+            "count": 7704,
+            "unique": 2447,
+            "top": "8",
+            "freq": 169
+        },
+        "2017 [YR2017]": {
+            "count": 7704,
+            "unique": 2236,
+            "top": "8",
+            "freq": 169
+        },
+        "2016 [YR2016]": {
+            "count": 7704,
+            "unique": 2214,
+            "top": "8",
+            "freq": 165
+        },
+        "2015 [YR2015]": {
+            "count": 7704,
+            "unique": 2222,
+            "top": "9",
+            "freq": 158
+        },
+        "2014 [YR2014]": {
+            "count": 7704,
+            "unique": 2412,
+            "top": "..",
+            "freq": 198
+        },
+        "2013 [YR2013]": {
+            "count": 7704,
+            "unique": 2282,
+            "top": "9",
+            "freq": 142
+        },
+        "2012 [YR2012]": {
+            "count": 7704,
+            "unique": 2315,
+            "top": "9",
+            "freq": 148
+        }
+    }
+}
