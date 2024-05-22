@@ -2,69 +2,98 @@
     "Dataset": "country_metadata",
     "Shape": [
         213,
-        29
+        4
     ],
     "Columns": [
         "Code",
         "Long Name",
         "Income Group",
-        "Region",
-        "Lending category",
-        "Other groups",
-        "Currency Unit",
-        "Latest population census",
-        "Latest household survey",
-        "Special Notes",
-        "National accounts base year",
-        "National accounts reference year",
-        "System of National Accounts",
-        "SNA price valuation",
-        "PPP survey years",
-        "Balance of Payments Manual in use",
-        "External debt Reporting status",
-        "System of trade",
-        "Government Accounting concept",
-        "IMF data dissemination standard",
-        "Source of most recent Income and expenditure data",
-        "Vital registration complete",
-        "Latest agricultural census",
-        "Latest industrial data",
-        "Latest trade data",
-        "2-alpha code",
-        "WB-2 code",
-        "Table Name",
-        "Short Name"
+        "Region"
     ],
+    "Head": {
+        "Code": {
+            "0": "AFG",
+            "1": "ALB",
+            "2": "DZA",
+            "3": "ASM",
+            "4": "AND"
+        },
+        "Long Name": {
+            "0": "Islamic State of Afghanistan",
+            "1": "Republic of Albania",
+            "2": "People's Democratic Republic of Algeria",
+            "3": "American Samoa",
+            "4": "Principality of Andorra"
+        },
+        "Income Group": {
+            "0": "Low income",
+            "1": "Upper middle income",
+            "2": "Lower middle income",
+            "3": "High income",
+            "4": "High income"
+        },
+        "Region": {
+            "0": "South Asia",
+            "1": "Europe & Central Asia",
+            "2": "Middle East & North Africa",
+            "3": "East Asia & Pacific",
+            "4": "Europe & Central Asia"
+        }
+    },
+    "Tail": {
+        "Code": {
+            "208": "VIR",
+            "209": "PSE",
+            "210": "YEM",
+            "211": "ZMB",
+            "212": "ZWE"
+        },
+        "Long Name": {
+            "208": "Virgin Islands of the United States",
+            "209": "West Bank and Gaza",
+            "210": "Republic of Yemen",
+            "211": "Republic of Zambia",
+            "212": "Republic of Zimbabwe"
+        },
+        "Income Group": {
+            "208": "High income",
+            "209": "Upper middle income",
+            "210": "Low income",
+            "211": "Lower middle income",
+            "212": "Lower middle income"
+        },
+        "Region": {
+            "208": "Latin America & Caribbean",
+            "209": "Middle East & North Africa",
+            "210": "Middle East & North Africa",
+            "211": "Sub-Saharan Africa",
+            "212": "Sub-Saharan Africa"
+        }
+    },
     "Describe": {
-        "National accounts reference year": {
-            "count": 74.0,
-            "mean": 2013.3108108108108,
-            "std": 4.141092687763538,
-            "min": 2000.0,
-            "25%": 2012.0,
-            "50%": 2015.0,
-            "75%": 2015.0,
-            "max": 2021.0
+        "Code": {
+            "count": 213,
+            "unique": 213,
+            "top": "AFG",
+            "freq": 1
         },
-        "Latest industrial data": {
-            "count": 148.0,
-            "mean": 2007.081081081081,
-            "std": 9.401485997403153,
-            "min": 1973.0,
-            "25%": 2002.75,
-            "50%": 2012.0,
-            "75%": 2013.0,
-            "max": 2014.0
+        "Long Name": {
+            "count": 213,
+            "unique": 213,
+            "top": "Islamic State of Afghanistan",
+            "freq": 1
         },
-        "Latest trade data": {
-            "count": 193.0,
-            "mean": 2016.259067357513,
-            "std": 4.2616547500919175,
-            "min": 1995.0,
-            "25%": 2017.0,
-            "50%": 2018.0,
-            "75%": 2018.0,
-            "max": 2018.0
+        "Income Group": {
+            "count": 213,
+            "unique": 5,
+            "top": "High income",
+            "freq": 71
+        },
+        "Region": {
+            "count": 213,
+            "unique": 8,
+            "top": "Europe & Central Asia",
+            "freq": 54
         }
     }
 }

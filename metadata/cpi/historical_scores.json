@@ -2,34 +2,104 @@
     "Dataset": "historical_scores",
     "Shape": [
         2132,
-        24
+        6
     ],
     "Columns": [
         "Country / Territory",
         "ISO3",
-        "Year",
         "Region",
+        "Year",
         "CPI score",
-        "Rank",
-        "Standard error",
-        "Number of sources",
-        "Lower CI",
-        "Upper CI",
-        "African Development Bank CPIA",
-        "Bertelsmann Foundation Sustainable Governance Index",
-        "Bertelsmann Foundation Transformation Index",
-        "Economist Intelligence Unit Country Ratings",
-        "Freedom House Nations in Transit",
-        "Global Insights Country Risk Ratings",
-        "IMD World Competitiveness Yearbook",
-        "PERC Asia Risk Guide",
-        "PRS International Country Risk Guide",
-        "Varieties of Democracy Project",
-        "World Bank CPIA",
-        "World Economic Forum EOS",
-        "World Justice Project Rule of Law Index",
-        "Transparency International Bribe Payers Survey"
+        "Rank"
     ],
+    "Head": {
+        "Country / Territory": {
+            "0": "Afghanistan",
+            "1": "Afghanistan",
+            "2": "Afghanistan",
+            "3": "Afghanistan",
+            "4": "Afghanistan"
+        },
+        "ISO3": {
+            "0": "AFG",
+            "1": "AFG",
+            "2": "AFG",
+            "3": "AFG",
+            "4": "AFG"
+        },
+        "Region": {
+            "0": "AP",
+            "1": "AP",
+            "2": "AP",
+            "3": "AP",
+            "4": "AP"
+        },
+        "Year": {
+            "0": 2023,
+            "1": 2022,
+            "2": 2021,
+            "3": 2020,
+            "4": 2019
+        },
+        "CPI score": {
+            "0": 20,
+            "1": 24,
+            "2": 16,
+            "3": 19,
+            "4": 16
+        },
+        "Rank": {
+            "0": 162,
+            "1": 150,
+            "2": 174,
+            "3": 165,
+            "4": 173
+        }
+    },
+    "Tail": {
+        "Country / Territory": {
+            "2127": "Zimbabwe",
+            "2128": "Zimbabwe",
+            "2129": "Zimbabwe",
+            "2130": "Zimbabwe",
+            "2131": "Zimbabwe"
+        },
+        "ISO3": {
+            "2127": "ZWE",
+            "2128": "ZWE",
+            "2129": "ZWE",
+            "2130": "ZWE",
+            "2131": "ZWE"
+        },
+        "Region": {
+            "2127": "SSA",
+            "2128": "SSA",
+            "2129": "SSA",
+            "2130": "SSA",
+            "2131": "SSA"
+        },
+        "Year": {
+            "2127": 2016,
+            "2128": 2015,
+            "2129": 2014,
+            "2130": 2013,
+            "2131": 2012
+        },
+        "CPI score": {
+            "2127": 22,
+            "2128": 21,
+            "2129": 21,
+            "2130": 21,
+            "2131": 20
+        },
+        "Rank": {
+            "2127": 154,
+            "2128": 150,
+            "2129": 156,
+            "2130": 157,
+            "2131": 163
+        }
+    },
     "Describe": {
         "Year": {
             "count": 2132.0,
@@ -60,186 +130,6 @@
             "50%": 87.0,
             "75%": 130.0,
             "max": 180.0
-        },
-        "Standard error": {
-            "count": 2132.0,
-            "mean": 2.833738273921201,
-            "std": 1.5445276926957048,
-            "min": 0.37,
-            "25%": 1.78,
-            "50%": 2.47,
-            "75%": 3.4,
-            "max": 12.81
-        },
-        "Number of sources": {
-            "count": 2132.0,
-            "mean": 6.730300187617261,
-            "std": 1.8427025283829277,
-            "min": 3.0,
-            "25%": 5.0,
-            "50%": 7.0,
-            "75%": 8.0,
-            "max": 10.0
-        },
-        "Lower CI": {
-            "count": 2132.0,
-            "mean": 38.407129455909946,
-            "std": 19.413896966254953,
-            "min": 2.0,
-            "25%": 24.0,
-            "50%": 34.0,
-            "75%": 51.0,
-            "max": 89.0
-        },
-        "Upper CI": {
-            "count": 2132.0,
-            "mean": 47.70450281425891,
-            "std": 19.370402671571846,
-            "min": 11.0,
-            "25%": 33.0,
-            "50%": 43.0,
-            "75%": 62.0,
-            "max": 95.0
-        },
-        "African Development Bank CPIA": {
-            "count": 486.0,
-            "mean": 30.421810699588477,
-            "std": 13.530608965698779,
-            "min": 0.0,
-            "25%": 20.0,
-            "50%": 32.0,
-            "75%": 40.0,
-            "max": 65.0
-        },
-        "Bertelsmann Foundation Sustainable Governance Index": {
-            "count": 482.0,
-            "mean": 66.22199170124482,
-            "std": 17.061905561475378,
-            "min": 26.0,
-            "25%": 53.0,
-            "50%": 70.0,
-            "75%": 79.0,
-            "max": 99.0
-        },
-        "Bertelsmann Foundation Transformation Index": {
-            "count": 1587.0,
-            "mean": 36.231253938248265,
-            "std": 15.84855282386245,
-            "min": 6.0,
-            "25%": 25.0,
-            "50%": 33.0,
-            "75%": 45.0,
-            "max": 81.0
-        },
-        "Economist Intelligence Unit Country Ratings": {
-            "count": 1585.0,
-            "mean": 45.789905362776025,
-            "std": 21.418376869663515,
-            "min": 19.0,
-            "25%": 37.0,
-            "50%": 38.0,
-            "75%": 55.0,
-            "max": 90.0
-        },
-        "Freedom House Nations in Transit": {
-            "count": 348.0,
-            "mean": 42.98275862068966,
-            "std": 15.115301001189284,
-            "min": 21.0,
-            "25%": 28.75,
-            "50%": 44.0,
-            "75%": 55.0,
-            "max": 77.0
-        },
-        "Global Insights Country Risk Ratings": {
-            "count": 2125.0,
-            "mean": 43.526117647058825,
-            "std": 19.60463501239448,
-            "min": 1.0,
-            "25%": 32.0,
-            "50%": 42.0,
-            "75%": 59.0,
-            "max": 83.0
-        },
-        "IMD World Competitiveness Yearbook": {
-            "count": 744.0,
-            "mean": 57.83064516129032,
-            "std": 21.546552352781347,
-            "min": 20.0,
-            "25%": 38.0,
-            "50%": 55.0,
-            "75%": 79.0,
-            "max": 99.0
-        },
-        "PERC Asia Risk Guide": {
-            "count": 181.0,
-            "mean": 50.96132596685083,
-            "std": 19.83021393981192,
-            "min": 24.0,
-            "25%": 36.0,
-            "50%": 43.0,
-            "75%": 68.0,
-            "max": 92.0
-        },
-        "PRS International Country Risk Guide": {
-            "count": 1676.0,
-            "mean": 43.921241050119335,
-            "std": 21.451919217185814,
-            "min": 2.0,
-            "25%": 31.0,
-            "50%": 41.0,
-            "75%": 54.0,
-            "max": 100.0
-        },
-        "Varieties of Democracy Project": {
-            "count": 1288.0,
-            "mean": 42.93788819875776,
-            "std": 21.056903535981288,
-            "min": 9.0,
-            "25%": 24.0,
-            "50%": 41.0,
-            "75%": 62.0,
-            "max": 79.0
-        },
-        "World Bank CPIA": {
-            "count": 814.0,
-            "mean": 31.217444717444717,
-            "std": 13.464294373742536,
-            "min": 0.0,
-            "25%": 23.0,
-            "50%": 35.0,
-            "75%": 35.0,
-            "max": 70.0
-        },
-        "World Economic Forum EOS": {
-            "count": 1591.0,
-            "mean": 46.95788812067882,
-            "std": 20.423968200293366,
-            "min": 5.0,
-            "25%": 31.0,
-            "50%": 43.0,
-            "75%": 60.0,
-            "max": 96.0
-        },
-        "World Justice Project Rule of Law Index": {
-            "count": 1384.0,
-            "mean": 44.97760115606936,
-            "std": 20.65899676272084,
-            "min": 2.0,
-            "25%": 29.0,
-            "50%": 38.0,
-            "75%": 62.0,
-            "max": 90.0
-        },
-        "Transparency International Bribe Payers Survey": {
-            "count": 58.0,
-            "mean": 50.41379310344828,
-            "std": 20.7076852271135,
-            "min": 19.0,
-            "25%": 33.0,
-            "50%": 43.0,
-            "75%": 66.0,
-            "max": 99.0
         }
     }
 }

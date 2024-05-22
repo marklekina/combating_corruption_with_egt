@@ -2,32 +2,89 @@
     "Dataset": "global_scores",
     "Shape": [
         180,
-        22
+        5
     ],
     "Columns": [
         "Country / Territory",
         "ISO3",
         "Region",
         "CPI score 2023",
-        "Rank",
-        "Standard error",
-        "Number of sources",
-        "Lower CI",
-        "Upper CI",
-        "African Development Bank CPIA",
-        "Bertelsmann Foundation Sustainable Governance Index",
-        "Bertelsmann Foundation Transformation Index",
-        "Economist Intelligence Unit Country Ratings",
-        "Freedom House Nations in Transit",
-        "Global Insights Country Risk Ratings",
-        "IMD World Competitiveness Yearbook",
-        "PERC Asia Risk Guide",
-        "PRS International Country Risk Guide",
-        "Varieties of Democracy Project",
-        "World Bank CPIA",
-        "World Economic Forum EOS",
-        "World Justice Project Rule of Law Index"
+        "Rank"
     ],
+    "Head": {
+        "Country / Territory": {
+            "0": "Denmark",
+            "1": "Finland",
+            "2": "New Zealand",
+            "3": "Norway",
+            "4": "Singapore"
+        },
+        "ISO3": {
+            "0": "DNK",
+            "1": "FIN",
+            "2": "NZL",
+            "3": "NOR",
+            "4": "SGP"
+        },
+        "Region": {
+            "0": "WE/EU",
+            "1": "WE/EU",
+            "2": "AP",
+            "3": "WE/EU",
+            "4": "AP"
+        },
+        "CPI score 2023": {
+            "0": 90,
+            "1": 87,
+            "2": 85,
+            "3": 84,
+            "4": 83
+        },
+        "Rank": {
+            "0": 1,
+            "1": 2,
+            "2": 3,
+            "3": 4,
+            "4": 5
+        }
+    },
+    "Tail": {
+        "Country / Territory": {
+            "175": "Yemen",
+            "176": "South Sudan",
+            "177": "Syria",
+            "178": "Venezuela",
+            "179": "Somalia"
+        },
+        "ISO3": {
+            "175": "YEM",
+            "176": "SSD",
+            "177": "SYR",
+            "178": "VEN",
+            "179": "SOM"
+        },
+        "Region": {
+            "175": "MENA",
+            "176": "SSA",
+            "177": "MENA",
+            "178": "AME",
+            "179": "SSA"
+        },
+        "CPI score 2023": {
+            "175": 16,
+            "176": 13,
+            "177": 13,
+            "178": 13,
+            "179": 11
+        },
+        "Rank": {
+            "175": 176,
+            "176": 177,
+            "177": 177,
+            "178": 177,
+            "179": 180
+        }
+    },
     "Describe": {
         "CPI score 2023": {
             "count": 180.0,
@@ -48,176 +105,6 @@
             "50%": 87.0,
             "75%": 133.75,
             "max": 180.0
-        },
-        "Standard error": {
-            "count": 180.0,
-            "mean": 2.224277777777778,
-            "std": 1.263077747911338,
-            "min": 0.37,
-            "25%": 1.4,
-            "50%": 1.8,
-            "75%": 2.57,
-            "max": 7.43
-        },
-        "Number of sources": {
-            "count": 180.0,
-            "mean": 6.927777777777778,
-            "std": 1.8217511237941677,
-            "min": 3.0,
-            "25%": 6.0,
-            "50%": 7.0,
-            "75%": 8.0,
-            "max": 10.0
-        },
-        "Lower CI": {
-            "count": 180.0,
-            "mean": 39.28333333333333,
-            "std": 18.85649273952487,
-            "min": 8.0,
-            "25%": 25.0,
-            "50%": 34.0,
-            "75%": 50.25,
-            "max": 87.0
-        },
-        "Upper CI": {
-            "count": 180.0,
-            "mean": 46.66111111111111,
-            "std": 18.82117074021375,
-            "min": 14.0,
-            "25%": 32.0,
-            "50%": 44.0,
-            "75%": 59.0,
-            "max": 93.0
-        },
-        "African Development Bank CPIA": {
-            "count": 37.0,
-            "mean": 28.64864864864865,
-            "std": 12.405680186950688,
-            "min": 4.0,
-            "25%": 21.0,
-            "50%": 27.0,
-            "75%": 39.0,
-            "max": 57.0
-        },
-        "Bertelsmann Foundation Sustainable Governance Index": {
-            "count": 41.0,
-            "mean": 64.5609756097561,
-            "std": 18.52032502480424,
-            "min": 26.0,
-            "25%": 53.0,
-            "50%": 70.0,
-            "75%": 79.0,
-            "max": 97.0
-        },
-        "Bertelsmann Foundation Transformation Index": {
-            "count": 137.0,
-            "mean": 34.92700729927007,
-            "std": 15.800984256617925,
-            "min": 9.0,
-            "25%": 25.0,
-            "50%": 33.0,
-            "75%": 45.0,
-            "max": 81.0
-        },
-        "Economist Intelligence Unit Country Ratings": {
-            "count": 131.0,
-            "mean": 45.93893129770992,
-            "std": 22.051602322800402,
-            "min": 20.0,
-            "25%": 37.0,
-            "50%": 37.0,
-            "75%": 55.0,
-            "max": 90.0
-        },
-        "Freedom House Nations in Transit": {
-            "count": 29.0,
-            "mean": 42.793103448275865,
-            "std": 15.107659623857854,
-            "min": 21.0,
-            "25%": 27.0,
-            "50%": 44.0,
-            "75%": 56.0,
-            "max": 68.0
-        },
-        "Global Insights Country Risk Ratings": {
-            "count": 180.0,
-            "mean": 44.01111111111111,
-            "std": 18.155439614213442,
-            "min": 10.0,
-            "25%": 35.0,
-            "50%": 41.0,
-            "75%": 59.0,
-            "max": 83.0
-        },
-        "IMD World Competitiveness Yearbook": {
-            "count": 64.0,
-            "mean": 59.640625,
-            "std": 19.979646141026496,
-            "min": 22.0,
-            "25%": 44.0,
-            "50%": 57.0,
-            "75%": 77.25,
-            "max": 98.0
-        },
-        "PERC Asia Risk Guide": {
-            "count": 15.0,
-            "mean": 51.8,
-            "std": 21.03126923688358,
-            "min": 29.0,
-            "25%": 37.0,
-            "50%": 41.0,
-            "75%": 67.0,
-            "max": 89.0
-        },
-        "PRS International Country Risk Guide": {
-            "count": 140.0,
-            "mean": 43.22142857142857,
-            "std": 20.642230882010505,
-            "min": 6.0,
-            "25%": 32.0,
-            "50%": 39.0,
-            "75%": 53.75,
-            "max": 100.0
-        },
-        "Varieties of Democracy Project": {
-            "count": 175.0,
-            "mean": 44.34285714285714,
-            "std": 21.434131736183584,
-            "min": 9.0,
-            "25%": 25.0,
-            "50%": 43.0,
-            "75%": 63.5,
-            "max": 79.0
-        },
-        "World Bank CPIA": {
-            "count": 68.0,
-            "mean": 31.323529411764707,
-            "std": 12.965443366336888,
-            "min": 2.0,
-            "25%": 27.0,
-            "50%": 35.0,
-            "75%": 37.0,
-            "max": 60.0
-        },
-        "World Economic Forum EOS": {
-            "count": 91.0,
-            "mean": 47.68131868131868,
-            "std": 17.814400617277848,
-            "min": 15.0,
-            "25%": 33.0,
-            "50%": 45.0,
-            "75%": 58.0,
-            "max": 89.0
-        },
-        "World Justice Project Rule of Law Index": {
-            "count": 139.0,
-            "mean": 44.007194244604314,
-            "std": 20.579818594318052,
-            "min": 9.0,
-            "25%": 28.5,
-            "50%": 36.0,
-            "75%": 61.0,
-            "max": 88.0
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "Dataset": "wgi_sample_metadata",
+    "Dataset": "wgi_data",
     "Shape": [
         7704,
         15
